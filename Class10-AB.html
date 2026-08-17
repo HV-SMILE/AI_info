@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ԱԲ (Արհեստական Բանականություն) · 10-րդ դասարան · ԱԲ Հոսք</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="stars-canvas"></canvas>
+<div class="content">
+
+  <div class="subject-hero">
+    <a class="back-link" href="Class10.html">← Վերադառնալ 10-րդ դասարան</a>
+    <span class="icon">🧠</span>
+    <h1>ԱԲ (Արհեստական Բանականություն)</h1>
+    <p>Արհեստական բանականության դասընթացներ և նյութեր։</p>
+  </div>
+
+  <div class="materials">
+    <a class="material-card" style="--accent: var(--violet)" href="https://docs.google.com/presentation/d/1AGpa40ezwe4qYpcrUxfSlpOeq2iB2CGV/preview" target="_blank" rel="noopener">
+      <div class="row"><span class="icon">📊</span><span class="badge">PPTX</span></div>
+      <span class="t">Slides · Chapter 1</span>
+    </a>
+    <a class="material-card" style="--accent: var(--violet)" href="slides-chapter-2.pptx" onclick="openMaterial(this.getAttribute('href')); return false;">
+      <div class="row"><span class="icon">📊</span><span class="badge">PPTX</span></div>
+      <span class="t">Slides · Chapter 2</span>
+    </a>
+    <a class="material-card" style="--accent: var(--violet)" href="slides-chapter-3.pptx" onclick="openMaterial(this.getAttribute('href')); return false;">
+      <div class="row"><span class="icon">📊</span><span class="badge">PPTX</span></div>
+      <span class="t">Slides · Chapter 3</span>
+    </a>
+    <a class="material-card" style="--accent: var(--violet)" href="chapter-4-slides.pdf" onclick="openMaterial(this.getAttribute('href')); return false;">
+      <div class="row"><span class="icon">📘</span><span class="badge">PDF</span></div>
+      <span class="t">Chapter 4 · Slides</span>
+    </a>
+    <a class="material-card" style="--accent: var(--violet)" href="chapter-5.pdf" onclick="openMaterial(this.getAttribute('href')); return false;">
+      <div class="row"><span class="icon">📘</span><span class="badge">PDF</span></div>
+      <span class="t">Chapter 5</span>
+    </a>
+    <a class="material-card" style="--accent: var(--violet)" href="numpy.pdf" onclick="openMaterial(this.getAttribute('href')); return false;">
+      <div class="row"><span class="icon">📘</span><span class="badge">PDF</span></div>
+      <span class="t">NumPy</span>
+    </a>
+    <a class="material-card" style="--accent: var(--violet)" href="matplotlib.pdf" onclick="openMaterial(this.getAttribute('href')); return false;">
+      <div class="row"><span class="icon">📘</span><span class="badge">PDF</span></div>
+      <span class="t">Matplotlib</span>
+    </a>
+    <a class="material-card" style="--accent: var(--violet)" href="pandas.pdf" onclick="openMaterial(this.getAttribute('href')); return false;">
+      <div class="row"><span class="icon">📘</span><span class="badge">PDF</span></div>
+      <span class="t">Pandas</span>
+    </a>
+    <a class="material-card" style="--accent: var(--violet)" href="ab-neracutyun.docx" onclick="openMaterial(this.getAttribute('href')); return false;">
+      <div class="row"><span class="icon">📄</span><span class="badge">DOCX</span></div>
+      <span class="t">ԱԲ Ներածություն</span>
+    </a>
+
+  </div>
+
+</div>
+<footer class="site">ԱԲ Հոսքի Տեղեկություններ</footer>
+<script src="stars.js"></script>
+<script src="file-viewer.js"></script>
+</body>
+</html>
